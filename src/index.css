@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: #f1f5f8;
+  color: #222;
+}
+
+img {
+  width: 30vw;
+}
+
+.bookList {
+  display: grid;
+  grid-template-columns: repeat(3, 30vw);
+  grid-template-rows: repeat(auto, 40vh);
+  gap: 3rem;
+}
+
+.book {
+  background: #f1f5f8;
+  border-radius: 9px;
+}
+
+.book:nth-child(1) {
+  background-color: #222;
+  color: #f1f5f8;
+}
